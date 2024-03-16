@@ -283,7 +283,6 @@ return {
       },
     }
 
-    vim.cmd [[nnoremap \ :Neotree reveal<cr>]]
-    vim.keymap.set('n', '<leader>ft', '<cmd>Neotree toggle<CR>', { desc = 'Open Neotree file explorer' })
+    vim.cmd [[nnoremap \ :Neotree toggle<cr>]]
   end,
 }
